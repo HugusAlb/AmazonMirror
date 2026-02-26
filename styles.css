@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --fontPrimary: font-family: Arial, sans-serif;
+    --background: #E3E6E6;
+    --color: #0f1111;
+    --textColor: #FFFF;
+    --textAlternativeColor: #ccc;
+    --textPromoColor: #c10015;
+    --linkBodyColor: #2162a1;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +30,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #232F3E;
+  background-color: var(--color);
   color: #fff;
   min-height: 100px;
   padding: 30px;
@@ -29,4 +41,18 @@ body {
 .logoNavBar {
   width: 160px;
   height: 50px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-bar {
+  min-width: 800px;
+}
+
+p {
+  font-family: 'Roboto';
+  font-weight: bold;
 }
