@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Amazon.com.br</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" />
 </head>
 
 <body>
@@ -17,12 +18,22 @@
       </div>
       <div class="myCurrentLocation">
         <p>Delivery to</p>
-        <p>My Location</p>
+        <div style="display: flex; gap: 3px;">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>My Location</p>
+        </div>
       </div>
       <div class="search-bar">
-        <input class="search-bar" placeholder="Search in Amazon">
+        <select class="select-searchbar">
+          <option>All</option>
+        </select>
+        <input class="input-searchbar" placeholder="Search in Amazon">
+        <button class="button-searchbar">
+          <i class="fa fa-search"></i>
+        </button>
       </div>
       <div class="language">
+        <span class="fi fi-br"></span>
         <p>pt-br</p>
       </div>
       <div class="login">
@@ -34,7 +45,7 @@
         <p><strong>& Orders</strong></p>
       </div>
       <div class="cart">
-        <p>LogoCart</p>
+        <i class="fa-solid fa-cart-shopping"></i>
         <p>Cart</p>
       </div>
     </div>
