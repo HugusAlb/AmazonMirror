@@ -10,6 +10,7 @@
     --textPromoColor: #c10015;
     --linkBodyColor: #2162a1;
     --attention: #FF9900;
+    --musg: #232f3e;
 }
 
 * {
@@ -27,6 +28,8 @@ header {
 body {
   padding: none;
 }
+
+/*!!!!!!!!!!!!!!!!!{ COMEÇO DO NAV DE CIMA }!!!!!!!!!!!!!!!!!!*/
 
 .navbar {
   display: flex;
@@ -102,7 +105,23 @@ body {
   gap: 8px;
 }
 
+/*!!!!!!!!!!!!!!!!!{ FIM DO NAV DE CIMA }!!!!!!!!!!!!!!!!!!*/
+
 p {
   font-family: 'Roboto';
   font-weight: bold;
 }
+
+/*!!!!!!!!!!!!!!!!!{ COMEÇO DO NAV DE BAIXO }!!!!!!!!!!!!!!!!!!*/
+
+.subNavbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 38px;
+  background-color: var(--musg);
+  color: var(--textColor);
+  padding: 10px;
+}
+
+/*!!!!!!!!!!!!!!!!!{ FIM DO NAV DE BAIXO }!!!!!!!!!!!!!!!!!!*/
