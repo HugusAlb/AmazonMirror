@@ -1,0 +1,9 @@
+:root {
+    --fontPrimary: font-family: Arial, sans-serif;
+    --background: #E3E6E6;
+    --color: #0f1111;
+    --textColor: #FFFF;
+    --textAlternativeColor: #ccc;
+    --textPromoColor: #c10015;
+    --linkBodyColor: #2162a1;
+}
