@@ -114,12 +114,12 @@ p {
 
 .container{
     margin-top: 1rem;
-    height: 264rem;
-    border: 1px solid var(--color);
+    /* height: 264rem; */
+    /* border: 1px solid var(--color); */
 }
 
 .gridTopContent{
-    border: 1px solid var(--color);
+    /* border: 1px solid var(--color); */
     height: 700px;
     display: flex;
     padding: 1rem;
@@ -128,7 +128,7 @@ p {
 }
 
 .leftSection{
-    border: 1px solid var(--color);
+    /* border: 1px solid var(--color); */
     width: 45%;
     height: 100%;
     display: flex;
@@ -144,7 +144,7 @@ p {
 }
 
 .rightSection{
-    border: 1px solid var(--color);
+    /* border: 1px solid var(--color); */
     width: 45%;
     height: auto;
     display: flex;
@@ -161,7 +161,7 @@ p {
 }
 
 .topContent{
-    border: 1px solid var(--color);
+    /* border: 1px solid var(--color); */
     height: 350px;
     display: flex;
     justify-content: space-between;
